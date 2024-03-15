@@ -1,0 +1,25 @@
+{
+    "results": [
+        {
+            "_id": "mystery",
+            "brand": "Mystery box",
+            "images": [
+                "/assets/images/Control/1.jpg"
+             ]
+        },
+        {
+            "_id": "medium",
+            "brand": "Medium control",
+            "images": [
+                "/assets/images/Control/2.jpg"
+            ]
+        },
+        {
+            "_id": "full",
+            "brand": "Full control",
+            "images": [
+                "/assets/images/Control/3.jpg"]
+        }
+        
+    ]
+}

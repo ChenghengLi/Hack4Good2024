@@ -1,0 +1,76 @@
+{
+    "Everlast":
+        {
+            "name":"Everlast",
+            "products": [
+                 {
+                    "name": "Crystal Carving",
+                    "components": [
+                        {
+                            "id": "ImageSelector",
+                            "props": {
+                                "title": "Select Image for the item:"
+                            },
+                            "emits": {
+                                "selection": []
+                            }
+                        }
+                    ]
+                    ,
+                    "professional": true
+                },
+                {
+                    "name": "Carved keychain",
+                    "components": [
+                        {
+                            "id": "ColorSelector",
+                            "props": {
+                                "title": "Select color for the item:",
+                                "colors": ["#ffd9b3", "#e6ccff", "#8080ff", "#669999"]
+                            },
+                            "emits": {
+                                "selection": []
+                            }
+                        }
+                    ]
+                    
+                }, 
+                {
+                    "name": "Mirror Light Box",
+                    "components": [
+                        {
+                            "id": "ImageSelector",
+                            "props": {
+                                "title": "Select Image for the item:"
+                            },
+                            "emits": {
+                                "selection": []
+                            }
+                        }
+                    ]
+                    ,
+                    "professional": true
+                },
+                {
+                    "name": "CUPBEARER",
+                    "components": [
+                        {
+                            "id": "ColorSelector",
+                            "props": {
+                                "title": "Select color for the item:",
+                                "colors": ["black", "white"]
+                            },
+                            "emits": {
+                                "selection": []
+                            }
+                        }
+                    ]
+                    
+                }
+            ]
+
+
+            }
+    
+    
+}

@@ -1,0 +1,42 @@
+{
+    "results": [
+        {
+            "_id": "love",
+            "name": "personalize your love with the journey Amorelle",
+            "brand": "LOVE",
+            "images": [
+                "/assets/images/Personalization/1.jpg"
+            ]
+        },
+        {
+            "_id": "temporary-separation",
+            "name": "stay close even during temporary separations with Odyssea, a journey that navigates distance and keeps your love intertwined",
+            "brand": "Temporary separation",
+            "images": [
+                "/assets/images/Personalization/2.jpg" ]
+        },
+        {
+            "_id": "memorialize",
+            "name": "honor your beloved with Remembrance, a journey paying tribute through heartfelt remembrances that echoes through time",
+            "brand": "Memorialize",
+            "images": [
+                "/assets/images/Personalization/3.jpg"]
+        },
+        {
+            "_id": "gift",
+            "name": "customize personalized gifting with Treasurex for thoughtfully  tailored expressions of celebration",
+            "brand": "Gift",
+            "images": [
+                "/assets/images/Personalization/4.jpg"
+                ]
+        },
+        {
+            "_id": "animal-love",
+            "name": "unleash your passion for exotic animals with the journey  Exotica",
+            "brand": "Animal Love",
+            "images": [
+                "/assets/images/Personalization/5.jpg"]
+        }
+        
+    ]
+}
