@@ -4,11 +4,10 @@ b<template>
         <div class="container">
             <div class="hero__text">
                 <h4></h4>
-                <h1 style="color: #e3e6f3">YOU ARE MY OXYTOCIN</h1>
-                <h2 style="color: #e3e6f3">Personalize your products</h2>
-                <p style="color: #e3e6f3">Your journey starts here:</p>
+                <h1 style="color: white">Conocimiento al alcance de todos, en cualquier momento y lugar.</h1>
+                <p></p>
                 <router-link to="/playground">
-                    <action-button btnvalue="Start" />
+                    <action-button btnvalue="¡Empieza ya!" />
                 </router-link>
             </div>
         </div>
@@ -82,7 +81,7 @@ export default {
     align-items: center;
     justify-content: center;
     height: calc(100vh - 65px);
-    background-image: url("@/assets/images/home.jpg");
+    background-image: url("@/assets/images/3.png");
     background-position: 60% 30%;
     background-size: cover;
     

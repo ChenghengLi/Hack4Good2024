@@ -1,6 +1,5 @@
 <template>
     <div class="service__card">
-        <slot></slot>
         <span>{{ name }}</span>
     </div>
 </template>

@@ -7,15 +7,15 @@
            @dragleave.prevent="onDragLeave" 
            @drop.prevent="onFileDrop">
         <i class="fa fa-cloud-upload-alt upload-icon" v-if="!fileUploaded"></i>
-        <p class="upload-instructions" v-if="!fileUploaded">Drag & Drop files here or</p>
-        <button class="browse-files-btn" v-if="!fileUploaded" @click="triggerFileInput">Browse Files</button>
+        <p class="upload-instructions" v-if="!fileUploaded">Drag & Drop o</p>
+        <button class="browse-files-btn" v-if="!fileUploaded" @click="triggerFileInput">Buscar archivos</button>
         <input type="file" ref="fileInput" @change="handleFiles" style="display: none;" multiple>
         <div v-if="fileUploaded" class="upload-complete-message">
           <i class="fa fa-check-circle upload-complete-icon"></i>
-          <p>File(s) uploaded successfully!</p>
+          <p>Archivo subido correctamente.</p>
           <div class="button-group">
-      <button class="action-btn remove-file-btn" @click="removeFile">Remove File</button>
-      <button class="action-btn start-btn" @click="startProcess">Start</button>
+      <button class="action-btn remove-file-btn" @click="removeFile">Eliminar</button>
+      <button class="action-btn start-btn" @click="startProcess">Empezar</button>
     </div>
         </div>
       </div>

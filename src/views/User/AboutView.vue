@@ -3,11 +3,6 @@
     <sub-header heading="#WhoWeAre" subHeading="Get to know us" />
     <div class="container">
         <article>
-            <img
-                src="@/assets/images/a6.webp"
-                class="about-img"
-                alt="Who we are"
-            />
             <div class="about-text">
                 <h1>Sobre nosotros</h1>
                 <p>
@@ -19,14 +14,6 @@
                 </p>
             </div>
         </article>
-        <div class="video-section">
-            <h1>Download Our <a href="/">App</a></h1>
-            <img
-                src="@/assets/images/download.svg"
-                alt=""
-                class="video-banner"
-            />
-        </div>
     </div>
     <service-section />
     <main-footer />
@@ -56,7 +43,7 @@ article {
 }
 
 .about-text {
-    width: 50%;
+    width: 100%;
 }
 
 .about-text p {

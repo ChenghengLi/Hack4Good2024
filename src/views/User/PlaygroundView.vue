@@ -14,18 +14,18 @@
           </div>
           <div class="button-container">
     <!-- Speech button placed before the upload button -->
-    <button class="readText" @click="readText"><i class="fa fa-volume-up"></i></button>
-    <button class="uploadMore" @click="uploadMore">Upload More Files</button>
+    <button class="readText" @click="readText"> <i class="fa" :class="!reproduce ? 'fa-volume-up' : 'fa-volume-mute'"></i></button>
+    <button class="uploadMore" @click="uploadMore">Subir otro archivo</button>
   </div>
         </div>
       </div>
           <div class="empty-section" v-show="currentSection === 'emptySection' || isLargeScreen">
             <div class="empty-section-content">
               <div class="language-selector">
-                <h3 for="language-select">Languages</h3>
+                <h3 for="language-select">Idiomas</h3>
                 <select id="language-select" v-model="selectedLanguage">
                   <option value="es" selected>Español</option>
-                  <option value="en" selected>English</option>
+                  <option value="en" >English</option>
                   <option value="fr">Français</option>
                   <option value="de">Deutsch</option>
                   <option value="it">Italiano</option>
@@ -38,7 +38,7 @@
               </div>
               <hr class="separator" />
               <div class="action-label">
-                <h3>Qué quiere hacer</h3>
+                <h3>¿Qué quiere hacer?</h3>
               </div>
               <div class="button-group">
                 <button :class="{ selected: currentAction === 1 }" @click="currentAction = 1">Clarificar</button>
@@ -67,7 +67,7 @@
   import ProductPreloader from "@/components/preloaders/ProductPreloader.vue";
   import translateText from "@/apis/translate";
   import chat from "@/apis/openai";
-import { watch } from "vue";
+
   
   export default {
     name: "HomeView",
@@ -88,7 +88,8 @@ import { watch } from "vue";
         showPaper: false, // Control visibility of the paper
         loading: false, // Control visibility of the preloader
         textFromImage: '',
-        selectedLanguage: 'es',    
+        selectedLanguage: 'es',   
+        reproduce : false, 
       };
     },
     methods: {
@@ -101,8 +102,16 @@ import { watch } from "vue";
         this.isLargeScreen = window.innerWidth >= 768;
       },    readText() {
     const speech = new SpeechSynthesisUtterance(this.paperText);
-    window.speechSynthesis.speak(speech);
-    },
+    speech.lang = this.selectedLanguage;
+    if (!this.reproduce) {
+        window.speechSynthesis.speak(speech);
+        this.reproduce = true;
+    }else{
+        window.speechSynthesis.cancel();
+        this.reproduce = false;
+
+    }
+},
     uploadMore() {
         this.showDragAndDrop = true;
         this.showPaper = false;
