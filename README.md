@@ -1,4 +1,6 @@
-# Buy-It
+# AnaloguiScan
+
+[![Watch the video]]([https://youtu.be/vt5fpE0bzSY](https://drive.google.com/file/d/1oI-5B9OH_Ed3pxHjIWTD6Yk3jCs9Sr8d/view?usp=sharing))
 
 ## Project setup
 
