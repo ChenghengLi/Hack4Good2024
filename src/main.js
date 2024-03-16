@@ -8,4 +8,7 @@ import VueAwesomePaginate from "vue-awesome-paginate";
 
 // import the necessary css file
 import "vue-awesome-paginate/dist/style.css";
-createApp(App).use(router).use(store).use(VueAwesomePaginate).mount("#app");
+const app = createApp(App).use(router).use(store).use(VueAwesomePaginate).mount("#app");
+
+app.config.globalProperties.$langauge = 'Spanish';
+app.config.globalProperties.$currentAction= 'analogia';

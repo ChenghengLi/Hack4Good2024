@@ -1,26 +1,26 @@
 <template>
     <section class="services">
-        <h2>Services</h2>
+        <h2>Funcionalidades</h2>
         <div class="service-container">
-            <service-card name="Free Shipping">
-                <img src="@/assets/images/shipping.svg" alt="Free shipping"
+            <service-card name="Clarificar">
+                <img src="@/assets/images/shipping.svg" alt="Clarificar texto"
             /></service-card>
 
-            <service-card name="Easy Order">
-                <img src="@/assets/images/order.svg" alt="Easy Order" />
+            <service-card name="Analogía">
+                <img src="@/assets/images/order.svg" alt="Analogía texto" />
             </service-card>
-            <service-card name="Smart Saving">
-                <img src="@/assets/images/savings.svg" alt="Smart Saving" />
+            <service-card name="Destacar">
+                <img src="@/assets/images/savings.svg" alt="Resaltar lo importante" />
             </service-card>
-            <service-card name="Promotions">
-                <img src="@/assets/images/promos.svg" alt="Promotions" />
+            <service-card name="Lectura en voz alta">
+                <img src="@/assets/images/promos.svg" alt="Leer en voz alta" />
             </service-card>
-            <service-card name="24/7 Support">
+            <service-card name="Soporte multilingüe">
                 <img src="@/assets/images/support.svg" alt="24/7 Support"
             /></service-card>
-            <service-card name="Home Delivery">
+            <!----<service-card name="Home Delivery">
                 <img src="@/assets/images/delivery.svg" alt="Home Delivery" />
-            </service-card>
+            </service-card> -->
         </div>
     </section>
 </template>

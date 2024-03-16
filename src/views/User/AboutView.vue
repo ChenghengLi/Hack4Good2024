@@ -9,13 +9,13 @@
                 alt="Who we are"
             />
             <div class="about-text">
-                <h1>Who We Are ?</h1>
+                <h1>Sobre nosotros</h1>
                 <p>
-                    We pride ourselves to our delivery time and customer
-                    satisfaction first approach. Our platform connects you to
-                    the best service providers in your area. We are a team of
-                    young and passionate individuals who are dedicated to
-                    providing you with the best service possible.
+                    Somos un equipo de estudiantes del doble grado en Matemáticas e Ingeniería Informática. 
+                    Nos hemos unido con la misión de desarrollar una plataforma que facilite una comprensión
+                    más profunda y accesible de diversos documentos en el día a día. Nuestro objetivo es 
+                    proporcionar herramientas que ayuden a las personas a interpretar mejor cualquier tipo 
+                    de texto, promoviendo la claridad y el entendimiento en la lectura.
                 </p>
             </div>
         </article>

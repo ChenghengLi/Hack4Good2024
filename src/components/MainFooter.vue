@@ -2,7 +2,7 @@
     <footer>
         <div class="container">
             <router-link to="/" class="logo">
-                <h3>MyOxytocin</h3>
+                <h3>AnalogiScan</h3>
             </router-link>
             <div class="footer">
                 <div class="footer-col">

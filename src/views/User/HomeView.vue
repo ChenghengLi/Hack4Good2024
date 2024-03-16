@@ -1,4 +1,4 @@
-<template>
+b<template>
     <main-header />
     <section class="hero__section">
         <div class="container">
@@ -7,8 +7,8 @@
                 <h1 style="color: #e3e6f3">YOU ARE MY OXYTOCIN</h1>
                 <h2 style="color: #e3e6f3">Personalize your products</h2>
                 <p style="color: #e3e6f3">Your journey starts here:</p>
-                <router-link to="/shop">
-                    <action-button btnvalue="See more" />
+                <router-link to="/playground">
+                    <action-button btnvalue="Start" />
                 </router-link>
             </div>
         </div>
@@ -22,10 +22,7 @@
 
     <banner-section /> -->
 
-    <new-arrivals :newArrivals="newArrivals" />
     <!--<advert-section />-->
-    <news-letter />
-    <main-footer />
 </template>
 
 <script>
@@ -39,7 +36,7 @@ import MainHeader from "@/components/MainHeader.vue";
 import NewsLetter from "@/components/NewsLetter.vue";
 import MainFooter from "@/components/MainFooter.vue";
 
-import axios from "axios";
+
 import { mapActions } from "vuex";
 
 export default {
