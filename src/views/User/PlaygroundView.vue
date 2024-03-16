@@ -223,6 +223,7 @@
   .toggle-menu {
     display: none;
     position: fixed;
+    height: 5vh;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -319,6 +320,11 @@
     color: white;
   }
 
+  .button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the gap size as needed */
+}
 
 .paper-container {
   display: flex;
